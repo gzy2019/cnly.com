@@ -1,0 +1,34 @@
+.footer_d{
+    width:1100px;
+    margin:0 auto;
+    font-size:14px;
+    position:relative;
+    background-color:#ccc;
+}
+.footer_d li,.footer_d span,.footer_d>div{
+    float: left;
+}
+.footer_d>div:first-child{
+    width:880px;
+}
+.footer_d li,.footer_d span{
+    padding:20px 5px 0;
+}
+.footer_bot>p{
+    margin-left:262px;
+    padding:10px 0 20px 5px;
+}
+.footer_bot a{
+    margin-left:15px;
+}
+.footer_d a{
+    color:#5b5d5d;
+}
+.footer_d a:hover{
+    color:#ff6a00;
+}
+.footer_d div:last-child{
+    position: absolute;
+    top:0.5rem;
+    left:54rem;
+}

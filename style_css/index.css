@@ -1,0 +1,115 @@
+body{
+    width:100%;
+    background-image: url(../index_img/en_bg.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+.nav_left{
+    width:125px;
+    height:60.9rem;
+    background-color:rgba(72,82,85,0.5);
+    position: relative;
+}
+.nav_left>ul>li{
+    width:80%;
+    border-bottom:1px solid #fff;
+    margin:10px auto;
+    
+}
+.nav_left>ul>li:first-child::before{
+    content: "";
+    display: table;
+}
+.nav_left>ul>li:first-child{
+    width:100%;
+    border-bottom:0;
+    margin:0 auto;
+}
+.nav_left>ul>li:last-child{
+    width:80%;
+    border-bottom:0;
+    position:absolute;
+    bottom:0;
+    left:0.65rem;
+    display: inline;
+}
+.index_center{
+    width:850px;
+    margin:30px auto;
+    position:absolute;
+    top:0;
+    left:600px;
+}
+a.but_kly {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 17rem;
+    width: 400px;
+    height: 125px;
+    background: url("../index_img/button2-1.png") no-repeat left top;
+}
+a.but_kly:hover {
+    background: url("../index_img/button2-1b.png") no-repeat left top;
+}
+a.but_ssj {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 17rem;
+    width: 400px;
+    height: 125px;
+    background: url("../index_img/button2-2.png") no-repeat left top;
+    }
+a.but_ssj:hover {
+    background: url("../index_img/button2-2b.png") no-repeat left top;
+    }
+a.but_kly, a.but_ssj {
+    transition: 0.5s all;
+    }
+.index_center>div>video{
+    width:700px;
+    background: #000 url("index_img/video_bg.jpg") no-repeat top left;
+    background-size:100%;
+    position:absolute;
+    top:27rem;
+    left:5rem;
+    border-radius:30px;
+}
+.footer_d{
+    background-color:rgba(255, 255, 255,0.6);
+    position: absolute;
+    top:54rem;
+    left:4.5rem; 
+    border-radius: 15px;
+}
+.footer_d>ul>li,.footer_bot{
+    float:left;
+    margin-right:10px;
+    margin-left:10px;
+    padding-top:0.5rem;
+}
+.footer_d>ul>span{
+    float:left;
+    padding-top:0.5rem;
+}
+.footer_d>ul>li>a,.footer_bot,.footer_bot a{
+    color:#000;
+    font-weight:bold;
+    font-size:12px;
+}
+.footer_bot p{
+    padding-left:11rem;
+    padding-bottom:0.5rem;
+}
+.footer_bot a{
+    margin-left:10px;
+}
+.footer_d>ul>li>a:hover,.footer_bot a:hover{
+    color:#ff6a00;
+}
+.footer_tel{
+    position: absolute;
+    top:1rem;
+    left:66rem;
+}
